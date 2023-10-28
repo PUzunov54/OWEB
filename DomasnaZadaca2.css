@@ -1,0 +1,110 @@
+:root{
+    --primary-color: #c2ebe4;
+    --secondary-color:#042a47;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--secondary-color);
+    line-height: 0.6;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+}
+
+td {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 14px;
+    border: 3px solid var(--secondary-color);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    box-sizing: border-box;
+}
+
+select{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium';
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+input[type="checkbox"]{
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    padding: 1px;
+    width: 15px; 
+    height: 15px; 
+    border: 1px solid var(--secondary-color); 
+    border-radius: 4px; 
+    margin-right: 5px; 
+    background-color: white;
+    top: 1px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+}
+
+input[type="checkbox"]:checked{
+    border-color: var(--secondary-color);
+    background-color: var(--secondary-color);
+}
+
+input[type="radio"]{
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    width: 15px; 
+    height: 15px; 
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%; 
+    margin-right: 5px;
+    background-color: white;
+}
+
+ input[type="radio"]:checked{
+    background-color: var(--secondary-color); 
+} 
+
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 6px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 4px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
