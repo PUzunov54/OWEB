@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WordGame.css">
+    <title>Guess the Word</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Guess the Word Game</h1>
+    <div id="game-container">
+        <p id="word-display"></p>
+        <p id="totalLetters"></p>
+        <label for="guessInput">Enter a letter:</label>
+        <input type="text" id="guessInput" maxlength="8" autocomplete="off">
+        <button id="submitGuess">Submit Guess</button>
+        <p id="attempts">Attempts left: <span id="remainingAttempts">5</span></p>
+    </div>
+    <div id="result-popup" class="popup">
+        <p id="result-message"></p>
+        <button id="playAgain">Play Again</button>
+    </div>
+</div>
+
+<script src="WordGame.js"></script>
+</body>
+</html>
